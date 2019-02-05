@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="7tH-lq-9ke">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="W9L-bD-SFi">
+            <objects>
+                <viewController id="7tH-lq-9ke" customClass="ViewController" customModule="SliderSwitchExample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1Bv-oN-wcE">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SHSliderSwitch" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VC5-sn-h0L">
+                                <rect key="frame" x="25" y="45" width="325" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="zle-3U-Vgc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="18"/>
+                                <color key="textColor" red="0.8980392157" green="0.22352941179999999" blue="0.20784313730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UdO-1I-mrL" customClass="SHSliderSwitch" customModule="SliderSwitchExample" customModuleProvider="target">
+                                <rect key="frame" x="112.5" y="209" width="150" height="40"/>
+                                <color key="backgroundColor" red="0.8980392157" green="0.22352941179999999" blue="0.20784313730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="4o1-hp-9Fx"/>
+                                    <constraint firstAttribute="width" constant="150" id="6zb-7r-L71"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ji4-qz-2N4">
+                                <rect key="frame" x="30" y="99" width="315" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="GI9-oq-uLF"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="A sample project that demonstrates working of ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.1215686275" green="0.14117647059999999" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="Futura-Medium"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="SHSliderSwitch">
+                                        <attributes>
+                                            <color key="NSColor" red="0.89803921568627454" green="0.22352941176470587" blue="0.20784313725490194" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="14" name="Futura-Medium"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Ji4-qz-2N4" firstAttribute="leading" secondItem="sB6-XX-Xt4" secondAttribute="leading" constant="30" id="5d7-RG-f4k"/>
+                            <constraint firstItem="Ji4-qz-2N4" firstAttribute="top" secondItem="VC5-sn-h0L" secondAttribute="bottom" constant="30" id="JLN-vs-Hng"/>
+                            <constraint firstItem="UdO-1I-mrL" firstAttribute="top" secondItem="Ji4-qz-2N4" secondAttribute="bottom" constant="50" id="Jua-aa-Tem"/>
+                            <constraint firstItem="VC5-sn-h0L" firstAttribute="leading" secondItem="sB6-XX-Xt4" secondAttribute="leading" constant="25" id="KNY-a6-gZP"/>
+                            <constraint firstItem="sB6-XX-Xt4" firstAttribute="trailing" secondItem="VC5-sn-h0L" secondAttribute="trailing" constant="25" id="Rpv-ES-xzs"/>
+                            <constraint firstItem="Ji4-qz-2N4" firstAttribute="centerX" secondItem="sB6-XX-Xt4" secondAttribute="centerX" id="Szn-Fe-IlA"/>
+                            <constraint firstItem="VC5-sn-h0L" firstAttribute="top" secondItem="sB6-XX-Xt4" secondAttribute="top" constant="25" id="luR-i3-mvf"/>
+                            <constraint firstItem="UdO-1I-mrL" firstAttribute="centerX" secondItem="sB6-XX-Xt4" secondAttribute="centerX" id="nQQ-rH-6aA"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="sB6-XX-Xt4"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pyx-Jh-C4l" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-159" y="130"/>
+        </scene>
+    </scenes>
+</document>
