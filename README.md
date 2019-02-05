@@ -5,7 +5,7 @@ SHSliderSwitch is a simple lightweight library to implement an animated slider s
 [![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
 [![Platform](https://img.shields.io/badge/platform-ios-blue.svg?style=flat)]()
 
-<img src="/Screenshots/SHSliderSWitch.png" /> 
+<img src="/Screenshots/SHSliderSwitch.png" /> 
 
 ## Installation
 Just drag and drop the SHSliderSWitch.swift file from SHSliderSWitch folder to your project.
@@ -79,4 +79,4 @@ Inspired by  [GMStepper](https://github.com/gmertk/GMStepper)
 
 ## License
 
-SHSliderSWitch is available under the MIT license. See the LICENSE file for more info.
+SHSliderSwitch is available under the MIT license. See the LICENSE file for more info.
