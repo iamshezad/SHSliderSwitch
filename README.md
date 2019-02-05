@@ -9,7 +9,9 @@ SHSliderSwitch is a simple lightweight library to implement an animated slider s
 
 ## Installation
 Just drag and drop the SHSliderSWitch.swift file from SHSliderSWitch folder to your project.
-#### Cocoapods - updating soon
+#### Cocoapods
+
+pod 'SHSliderSwitch'
 
 ## Usage
 
